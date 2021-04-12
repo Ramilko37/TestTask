@@ -1,0 +1,48 @@
+.usage{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 105px;
+
+  &__title{
+    font-family: "Halvar Breitschrift", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #002051;
+    margin: 0 0 22px 0;
+  }
+
+  &__paragraph{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #002051;
+    mix-blend-mode: normal;
+    margin: 0  0 10px;
+  }
+
+  &__link{
+    margin: 0 10px 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #002051;
+    mix-blend-mode: normal;
+    //&:nth-last-of-type(3){
+    //  margin-left: 45px;
+    //}
+    &:hover{
+      color: #0AAEDD;
+    }
+    &_margin{
+    margin-left: 45px;
+    }
+  }
+
+
+
+}

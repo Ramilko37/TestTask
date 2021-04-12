@@ -1,0 +1,22 @@
+.specs {
+  display: flex;
+  flex-direction: column;
+}
+.specs__wrapper {
+  max-width: fit-content;
+  padding: 0 10px 7px;
+  border-bottom: 2px solid #002051;
+  margin: 0 0 35px 0;
+}
+.specs__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #002051;
+}
+.specs__content {
+  display: flex;
+}
+
+/*# sourceMappingURL=specs.css.map */

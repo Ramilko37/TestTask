@@ -1,0 +1,46 @@
+.catalog {
+  width: 1182px;
+  display: flex;
+  flex-direction: column;
+}
+.catalog__path {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #002051;
+  margin-bottom: 40px;
+}
+.catalog__opened {
+  color: #99A6B9;
+}
+.catalog__title {
+  margin: 0 0 10px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #002051;
+}
+.catalog__articul {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #002051;
+  mix-blend-mode: normal;
+  text-align: left;
+}
+.catalog__item {
+  display: flex;
+  margin-top: 40px;
+}
+.catalog__item-img {
+  width: 503px;
+  height: 503px;
+  margin: 0 139px 0 107px;
+  background-image: url("../../images/Placeholder.jpg");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=catalog.css.map */

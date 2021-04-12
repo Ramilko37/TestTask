@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #EAF9FC;;
+
+  &__nav{
+    margin: 0 0 0 94px;
+  }
+
+  &__list{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: black;
+  }
+
+  &__list-item{
+    margin-right: 15px;
+    &:last-child{
+      margin: 0 0 0 725px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: right;
+      color: #002051;
+    }
+  }
+
+  &__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #002051;
+  }
+
+  &__search {
+    display: flex;
+    margin: 0 0 0 94px;
+  }
+
+  &__logo{
+    width: 135.32px;
+    height: 22px;
+    background-image: url("../../images/logo.png");
+    margin: 8px 30px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__button{
+    margin: 0 25px 10px 0;
+    width: 127px;
+    height: 40px;
+    background-color: #002051;
+    border: none;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  &__input{
+    display: flex;
+    flex-direction: row;
+    width: 813px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    opacity: 0.7;
+    /* Blue/navy blue */
+  }
+
+  &__input-placeholder{
+      width: 813px;
+      height: 40px;
+      border: 1px solid #002051;
+      box-sizing: border-box;
+      border-radius: 4px;
+      //margin-right: 36px;
+  }
+
+  &__search-button{
+    width: 16px;
+    height: 16px;
+    background-image: url("../../images/Search.svg");
+    position: absolute;
+    top: 65px;
+    right: 235px;
+    border: none;
+    background-color: #FFFFFF;
+  }
+
+  &__images{
+    display: flex;
+  }
+
+  &__img{
+    margin: 0 0 18px 36px;
+    &:last-child{
+      margin-left: 39px;
+    }
+  }
+
+  &__round{
+    width: 16px;
+    height: 16px;
+    background: #E83850;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin: 0;
+    left: 5px;
+  }
+
+
+
+}

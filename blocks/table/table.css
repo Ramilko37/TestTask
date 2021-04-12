@@ -1,0 +1,32 @@
+.table {
+  padding: 0;
+  margin-bottom: 40px;
+  width: 393px;
+  border-spacing: 5px;
+}
+.table:nth-last-of-type(2) {
+  margin-right: 160px;
+}
+.table__left {
+  width: 257px;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #99A6B9;
+  mix-blend-mode: normal;
+  margin: 0 0 10px 0;
+}
+.table__right {
+  width: 136px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #002051;
+  mix-blend-mode: normal;
+  margin: 0 0 10px 0;
+}
+
+/*# sourceMappingURL=table.css.map */
